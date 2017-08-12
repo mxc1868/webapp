@@ -1,0 +1,37 @@
+body{
+	font-family: Source Sans Pro;
+	font-weight: 400;
+	margin: auto;
+}
+#contact {
+	text-align: center;
+}
+#border {
+	position: relative;
+	margin: auto;
+	margin-top: 70px;
+	width: 800px;
+	border: 15px solid #bdc3c7;
+	padding: 20px;
+}
+.title {
+	text-align: center;
+	color: #3498db;
+	font-weight: 900;
+	border-bottom: 3px solid #3498db;
+	padding: 5px 0 5px 0;
+	margin: 10px 0;
+}
+h1, h2 {
+	margin: auto;
+}
+strong {
+	font-weight: 900;
+}
+p.center {
+	text-align: center;
+}
+span.end {
+	float: right;
+	font-size: 1em;
+}

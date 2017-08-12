@@ -1,0 +1,21 @@
+<%
+if (!body.Error) {
+var result = body.Search;
+result.forEach(function(movie) { %>
+    <h2><%= movie.Title %></h2>
+    <ul>
+            <li>Year: <%= movie.Year %></li>
+            <li>ID: <%= movie.imdbID %></li>
+            <li>
+		<% if (movie.Poster === "N/A") { %>
+			Image not Avalibale
+		<% } else { %>
+			<img src = <%= movie.Poster%>>
+		<% } %>
+	    </li>
+    </ul>
+<%
+}); } else { %>
+	<h2><%= body.Error %></h2>
+<% } %>
+

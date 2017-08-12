@@ -1,0 +1,60 @@
+.jumbotron {
+	background-color: rgba(0,0,0, 0.1);
+	color: white;
+}
+.container {
+	margin: 70px auto;
+}
+body {
+	font-size: 20px;
+	background: #4DA0B0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.center {
+	margin: 0 30%;
+}
+#todoInput {
+	width: 100%;
+	height: 50px;
+	font-size: 35px;
+	color: #2980b9;
+	border: 3px solid rgba(0,0,0,0);
+}
+.main{
+	background-color: rgba(240,240,240, 0.6);
+	box-shadow: : 0 0 3px rgba(0,0,0, 0.2);
+}
+table {
+	font-weight: normal;
+	text-transform: capitalize;;
+}
+
+#mytable td{
+	padding: 0px;
+	vertical-align: middle;
+	height: 50px;
+	line-height: 50px;
+}
+table span {
+	background-color: rgb(255, 0, 40);
+	color: white;
+	margin-right: 20px;
+	text-align: center;
+	width: 0px;
+	opacity: 0;
+	display: inline-block;
+	transition: all 0.5s ease;
+}
+tr:hover span{
+	width: 40px;
+	opacity: 1;
+}
+.lineThrough {
+	text-decoration: line-through;
+	color: gray;
+}
+.lineThrough span{
+	background-color: gray;
+}
